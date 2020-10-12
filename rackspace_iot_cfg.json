@@ -1,0 +1,8 @@
+{
+    "wlans": [{
+            "friendly_name": "friendly_name",
+            "essid": "wifi_ssid",
+            "passwd": "wifi_password"
+        }
+    ]
+}
