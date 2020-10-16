@@ -1,0 +1,11 @@
+docs/build/
+docs/source/_static/
+docs/source/_templates/
+docs/source/_build/
+docs/source/_build/html/
+.vscode/
+todo.txt
+
+*.crt
+*.key
+*.pem
