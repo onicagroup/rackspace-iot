@@ -32,7 +32,7 @@ Your Rackspace IoT device supports a version of the Python REPL called the WebRE
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 - Find the small rectangular LED labelled `STATUS`, it is located just above the blue button on the Rackspace IoT device.  The STATUS LED is used to indicate when the device enters Access Point (AP) mode, which will allow your workstation to connect to the device via WiFi.
 - Briefly unplug the power from the device, and plug it back in.  After a moment, the STATUS LED will blink rapidly for 5 seconds, indicating AP mode.
-- Connect your workstation WiFi to the network named ``RackspaceIoT-######``, with password ``rackspace``
+- Connect your workstation WiFi to the network named ``RackspaceIoT-######``, with password ``rackspaceiot``
 
 2 - Connect to the WebREPL
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -65,7 +65,7 @@ Your Rackspace IoT device supports a version of the Python REPL called the WebRE
     {
         "wlans": [{
                 "friendly_name": "my home wifi",
-                "essid": "ATT288-5G",
+                "essid": "ATT288-2.4G",
                 "passwd": "hunter2"
             }
         ]
