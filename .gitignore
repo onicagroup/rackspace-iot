@@ -9,3 +9,4 @@ todo.txt
 *.crt
 *.key
 *.pem
+.DS_Store

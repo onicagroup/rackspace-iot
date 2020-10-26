@@ -11,6 +11,8 @@ This walkthough assumes you have:
 - Downloaded or cloned the Rackspace IoT repository
 - Privileged access to a **non-production** Amazon Web Services (AWS) account, which you can sign up for `here <√>`_.
 
+**Note**: No additional costs will be incurred from AWS usage for this lab.
+
 ----
 
 Configure AWS IoT, and Download Certificates
@@ -45,6 +47,8 @@ Configure AWS IoT, and Download Certificates
     2. Next to 'A private key', click **Download**
     3. Click the **Activate** button.  You should see a popup message indicating successful activation, and the button will switch to read **Deactivate**
     4. Click **Attach a policy**
+
+*If using Windows, be sure to specify 'all filetypes', not '.txt' in the save as dialog*
 
 .. image:: ../img/hello-world-cert3.png
     :align: center
