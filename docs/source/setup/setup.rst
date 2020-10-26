@@ -1,6 +1,16 @@
 01 - Setup
 ==============
 
+Board Safety
+---------------------
+To prevent damaging the board **avoid** the following.
+
+- Hooking a motor (or other inductive loads like a relay) up to the board directly.
+- Using a power supply other than the one included with the kit.
+- Plugging the board directly into unkown circuits
+- Exposing the board to extreme environments: heat, flame, water, ice, moisture, etc.
+- Allowing the bare board to come into contact with conductive surfaces when powered. Always use the steel standoff feet provided in the kit!
+
 Unboxing and Assembly
 --------------------- 
 - Unbox and assemble your Rackspace IoT Developer Kit using the instructions provided below (click image to enlarge):
