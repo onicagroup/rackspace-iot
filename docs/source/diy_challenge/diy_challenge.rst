@@ -3,6 +3,8 @@
 
 Now its time to test your IoT skills, and see if you can build a working end-to-end IoT solution that will measure **temperature, humidity, and light levels**, and send that data from your Rackspace IoT board to AWS using MQTT.
 
+**Tip:** If you need to re-import a module to run the code again, check out "Re-importing module code" in section :doc:`../hints/hints`
+
 Here are some hints to help you get started:
 
 - Use the ``hello_world.py`` you used in section :doc:`../iot_hello_world/iot_hello_world` as a base for your script, as it already has a working MQTT client that sends data to the cloud.  You just need to change what data it sends!

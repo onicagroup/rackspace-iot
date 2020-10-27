@@ -18,6 +18,7 @@ Rackspace IoT Developer Kit Preview - Quickstart
    features/features
    sensors/sensors
    diy_challenge/diy_challenge
+   hints/hints
    .. putting_all_together/putting_all_together
    .. advanced/advanced
    .. troubleshooting/troubleshooting

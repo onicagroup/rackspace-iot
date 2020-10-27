@@ -1,6 +1,16 @@
 01 - Setup
 ==============
 
+Board Safety
+---------------------
+To prevent damaging the board **avoid** the following.
+
+- Hooking a motor (or other inductive loads like a relay) up to the board directly.
+- Using a power supply other than the one included with the kit.
+- Plugging the board directly into unkown circuits
+- Exposing the board to extreme environments: heat, flame, water, ice, moisture, etc.
+- Allowing the bare board to come into contact with conductive surfaces when powered. Always use the steel standoff feet provided in the kit!
+
 Unboxing and Assembly
 --------------------- 
 - Unbox and assemble your Rackspace IoT Developer Kit using the instructions provided below (click image to enlarge):
@@ -10,7 +20,8 @@ Unboxing and Assembly
     :align: center
     :alt: img/assembly.png
 
-- Power your device with the micro-usb cable provided to the micro-usb port on the Rackspace IoT board.  You can use any standard USB port, or the USB wall adapter provided.
+- Power your device with the micro-usb cable provided to the micro-usb port on the Rackspace IoT board. You can use any standard USB port, or the USB wall adapter provided. *Note that the LED light does not stay lit, this is not an indication that the device is off.*
+- The lower portion of your Rackspace IoT hardware is a breadboard adapter. In order for the lab wiring diagrams to work as expected, your breadboard adapter must be oriented correctly on the breadboard. To do so, ensure that pin 2 on the breadboard adapter is inserted in hole E1 on the breadboard, and pin 15 on the breadboard adapter is inserted in hole F1 on the breadboard.
 ----
 
 Download or Clone Repository
@@ -72,7 +83,7 @@ Your Rackspace IoT device supports a version of the Python REPL called the WebRE
     }
 
 - **Save the file**, and close the text editor.
-- Back in your WebREPL browser window, click **Choose File**, browse to the saved file above, and click **Send to device**
+- Back in your WebREPL browser window, click **Browse**\*, browse to the saved file above, and click **Send to device** (* depending on the browser version, "Browse" may read "Choose File" or similar)
 - Ensure your WebREPL indicates ``Sent rackspace_iot_cfg.json, 153 bytes`` or similar message, before continuing (your file's size in bytes may be different):
 
 .. image:: ../img/upload_wifi_cfg.png
