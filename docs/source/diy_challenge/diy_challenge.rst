@@ -24,3 +24,5 @@ Here are some hints to help you get started:
     ...
 
 Did you get the desired data to send?  If so, great work!!
+
+Fast-track your IoT and edge initiatives, `learn more <https://www.rackspace.com/applications/iot-edge>`
