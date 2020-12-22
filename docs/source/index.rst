@@ -22,3 +22,5 @@ Rackspace IoT Developer Kit Preview - Quickstart
    .. putting_all_together/putting_all_together
    .. advanced/advanced
    .. troubleshooting/troubleshooting
+   
+Fast-track your IoT and edge initiatives, `learn more <https://www.rackspace.com/applications/iot-edge>`_
